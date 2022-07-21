@@ -1,3 +1,85 @@
-h1{
-    color: red;
+body {
+    line-height: 1.5;
 }
+
+.hidden {
+    display: none;
+}
+
+.navbar {
+    background-color: teal;
+}
+
+.navbar .center {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+.uv {
+    cursor: initial !important;
+}
+
+#daily-forecast #conditions img {
+    display: block;
+}
+
+#search-form input {
+    width: 100%;
+}
+
+@media only screen and (max-width: 530px) {
+    .navbar .center {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .navbar .center i {
+        display: block;
+        line-height: 1.25;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+  }
+  
+  input,
+  select,
+  option,
+  optgroup,
+  textarea,
+  button,
+  pre,
+  code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
